@@ -1,0 +1,455 @@
+.Cards_container__Rosh5 {
+    margin: 50px;
+}
+
+.Cards_card__2xoIz {
+    margin: 0px 2% !important;
+}
+
+.Cards_infected__95jgZ {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.Cards_recovered__156fl {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.Cards_deaths__2SHQm {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .Cards_card__2xoIz {
+        margin: 2% 0px !important;
+    }
+}
+
+.Chart_container__2xQeL {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 770px) {
+    .Chart_container__2xQeL {
+        width: 100% !important;
+    }
+}
+
+.CountreyPicker_formControl__2jhsw {
+    width: 60%;
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+    margin-left: 10em !important;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.App_container__hqY9m {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media not all {
+    .App_container__hqY9m {
+        margin: 0px 10%;
+    }
+    .App_image__24X5J {
+        width: 100%;
+    }
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: 20s linear 0s infinite normal none running App-logo-spin;
+    }
+}
+
+.App-header {
+    background-color: rgb(40, 44, 52);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+}
+
+.App-link {
+    color: rgb(97, 218, 251);
+}
+
+@-webkit-keyframes App-logo-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes App-logo-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.table-Body-maincss {
+    padding-top: 130px;
+}
+
+body {
+    margin-right: 15px !important;
+}
+
+.form-input {
+    margin: 70px 100px -40px 50px;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+
+.topnav a {
+    float: left;
+    color: rgb(242, 242, 242);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("/static/media/Montserrat-Regular.9c460951.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url("/static/media/Montserrat-Medium.a98626e1.ttf");
+}
+
+a {
+    margin: 0px;
+    transition: all 0.4s ease 0s;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+ul {
+    margin: 0px;
+}
+
+li,
+ul {
+    list-style-type: none;
+}
+
+input {
+    border: none !important;
+}
+
+input,
+textarea {
+    display: block;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: transparent !important;
+}
+
+button {
+    border: none;
+    background: transparent;
+    outline: none !important;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+iframe {
+    border: none !important;
+}
+
+@media (max-width: 767px) {
+    .navbar-bg {
+        width: 106% !important;
+    }
+    body {
+        margin-right: 0px !important;
+    }
+    .table-Body-maincss {
+        margin-left: -31px !important;
+    }
+    .container-table100 {
+        width: 45% !important;
+        min-height: 45vh !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        padding: 15.2px 14.25px !important;
+    }
+    .wrap-table100 {
+        width: 618px !important;
+    }
+    table {
+        width: 45% !important;
+    }
+    td,
+    th {
+        font-weight: unset !important;
+        padding-right: 2.75px !important;
+    }
+    .column100 {
+        width: 20.75px !important;
+        padding-left: 4px !important;
+        font-size: 2px !important;
+    }
+    .column100.column1 {
+        width: 125.8px !important;
+        padding-left: 20px !important;
+    }
+    .row100.head th {
+        padding-top: 11.4px !important;
+        padding-bottom: 9.5px !important;
+    }
+    .row100 td {
+        padding-top: 8.55px !important;
+        padding-bottom: 6.68px !important;
+    }
+    .table100.ver1 td {
+        font-size: 6.68px !important;
+        line-height: 0.6 !important;
+    }
+    .table100.ver1 th {
+        font-size: 6px !important;
+        line-height: 1.3 !important;
+    }
+    .table100.ver2 td,
+    .table100.ver2 th {
+        font-size: 6.68px !important;
+        line-height: 0.6 !important;
+    }
+}
+
+.limiter {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+}
+
+.wrap-table100 {
+    width: 1300px;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+td,
+th {
+    font-weight: unset;
+    padding-right: 10px;
+}
+
+.column100 {
+    width: 130px;
+    padding-left: 25px;
+}
+
+.column100.column1 {
+    width: 265px;
+    padding-left: 42px;
+}
+
+.row100.head th {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.row100 td {
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+.table100.ver1 td {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: grey;
+    line-height: 1.4;
+}
+
+.table100.ver1 th {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: rgb(43, 53, 69);
+}
+
+.table100.ver1 th:hover {
+    background-color: rgb(39, 166, 211) !important;
+}
+
+.table100.ver1 .row100:hover {
+    background-color: rgb(210, 242, 252);
+}
+
+.table100.ver1 .hov-column-ver1 {
+    background-color: rgb(242, 242, 242);
+}
+
+.table100.ver1 .hov-column-head-ver1 {
+    background-color: rgb(72, 72, 72) !important;
+}
+
+.table100.ver1 .row100 td:hover {
+    background-color: rgb(39, 166, 211);
+    color: rgb(255, 255, 255);
+}
+
+.table100.ver2 td {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: grey;
+    line-height: 1.4;
+}
+
+.table100.ver2 th {
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: rgb(51, 51, 51);
+}
+
+.table100.ver2 .hov-column-ver2,
+.table100.ver2 .row100:hover td {
+    background-color: rgb(131, 209, 96);
+    color: rgb(255, 255, 255);
+}
+
+.table100.ver2 .hov-column-head-ver2 {
+    background-color: rgb(72, 72, 72) !important;
+}
+
+.table100.ver2 .row100 td:hover {
+    background-color: rgb(87, 184, 70);
+    color: rgb(255, 255, 255);
+}
+
+.totalState_container__I0gSf {
+    margin: 50px;
+}
+
+.totalState_card__3g-SA {
+    margin: 0px 2% !important;
+    padding: 2em 20em 2em 5em !important;
+}
+
+.totalState_deaths__1ONFQ {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .totalState_card__3g-SA {
+        margin: 2% 0px !important;
+    }
+}
+
+.activeState_container__3QsBJ {
+    margin: 50px;
+}
+
+.activeState_card__BJDSf {
+    margin: 0px 2% !important;
+    padding: 2em 23em 2em 2em !important;
+}
+
+.activeState_deaths__1QOrL {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+@media (max-width: 770px) {
+    .activeState_card__BJDSf {
+        margin: 2% 0px !important;
+    }
+}
+
+.closeState_container__1ExOQ {
+    margin: 50px;
+}
+
+.closeState_card__fneQG {
+    margin: 0px 2% !important;
+    padding: 2em 23em 2em 2em !important;
+}
+
+.closeState_deaths__12Tua {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .closeState_card__fneQG {
+        margin: 2% 0px !important;
+    }
+}
